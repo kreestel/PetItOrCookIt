@@ -345,7 +345,7 @@ function App() {
       <img
         src="/logotext_poweredby_360w.png"
         alt="Powered by Logo"
-        className="absolute top-4 right-4 w-32 md:w-48 z-10 pointer-events-none select-none"
+        className="absolute top-4 right-4 w-20 md:w-28 z-10 pointer-events-none select-none"
         style={{ maxWidth: '80vw', height: 'auto' }}
       />
       <div className="text-center mb-12">
