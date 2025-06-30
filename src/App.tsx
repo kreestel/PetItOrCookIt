@@ -340,7 +340,14 @@ function App() {
   };
 
   const HomeScreen = () => (
-    <div className="min-h-screen bg-gradient-to-br from-yellow-400 via-orange-500 to-red-600 flex flex-col items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-br from-yellow-400 via-orange-500 to-red-600 flex flex-col items-center justify-center p-4 relative">
+      {/* Logo in top right */}
+      <img
+        src="/logotext_poweredby_360w.png"
+        alt="Powered by Logo"
+        className="absolute top-4 right-4 w-32 md:w-48 z-10 pointer-events-none select-none"
+        style={{ maxWidth: '80vw', height: 'auto' }}
+      />
       <div className="text-center mb-12">
         <h1 className="text-6xl md:text-8xl font-black text-white mb-4 transform -rotate-2 drop-shadow-2xl">
           PET IT
