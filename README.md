@@ -24,6 +24,7 @@ I had lots of fun making it.
 - **Cloudinary** for image support/hosting
 - **Google Cloud Vision** for Image Classification
 - **Reddit API (Snoowrap)** to throw it all online
+- **Netlify** frontend deplyment
 - **Bolt.new** 
 
 ## ⚙️ Installation
@@ -37,3 +38,14 @@ npm run dev
 ```
 ⚠️The "Post to Reddit" feature won't work without the .env setup.
 Make sure your backend is running, your ports are open, and your internet isn’t betraying you.
+
+## Credits & Disclaimer
+
+Idea: me, clearly sleep-deprived.  
+Powered by Reddit, Cloudinary, and unearned confidence.  
+Built with Bolt.new for the Silly Sh!t Challenge.  
+
+This is a joke app built for a hackathon.  
+It does not promote violence against animals.  
+Built with love, joy, and the occasional interruption from my cats.
+
